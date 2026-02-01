@@ -11,7 +11,7 @@ from telegram.ext import (
 from telegram.request import HTTPXRequest
 
 # ================= CONFIG =================
-from anshi.config import TOKEN, PORT, BOT_NAME
+from anshi.config import BOT_TOKEN, PORT, BOT_NAME
 from anshi.utils import log_to_channel
 
 # ================= PLUGINS =================
