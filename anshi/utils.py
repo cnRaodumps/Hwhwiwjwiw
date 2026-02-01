@@ -26,8 +26,8 @@ from datetime import datetime, timedelta
 from telegram import Bot
 from telegram.constants import ParseMode, ChatType
 from telegram.error import TelegramError
-from baka.database import users_collection, sudoers_collection, groups_collection
-from baka.config import OWNER_ID, SUDO_IDS_STR, LOGGER_ID, BOT_NAME, AUTO_REVIVE_HOURS, AUTO_REVIVE_BONUS
+from anshi.database import users_collection, sudoers_collection, groups_collection
+from anshi.config import OWNER_ID, SUDO_IDS_STR, LOGGER_ID, BOT_NAME, AUTO_REVIVE_HOURS, AUTO_REVIVE_BONUS
 
 SUDO_USERS = set()
 
