@@ -5,7 +5,7 @@ BOT_NAME = os.getenv("BOT_NAME", "ᴀɴꜱʜɪᴋᴀ")
 OWNER_ID = int(os.getenv("OWNER_ID", "8211189367"))  # admin telegram id
 
 # ================= TELEGRAM =================
-BOT_TOKEN = os.getenv("8539332040:AAEwLvW469kL0L7a7aCv9EA3V6MN8ZX76jQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 PORT = int(os.getenv("PORT", "8000"))
 
 # ================= DATABASE =================
